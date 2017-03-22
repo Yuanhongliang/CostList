@@ -21,6 +21,7 @@
             app:title="@string/app_name" />
 
     </android.support.design.widget.AppBarLayout>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
@@ -35,7 +36,8 @@
         android:layout_margin="20dp"
         android:text="￥20"
         android:textColor="@color/red"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        app:layout_behavior="com.xiaoyuan.costlist.UpBehavior" />
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
